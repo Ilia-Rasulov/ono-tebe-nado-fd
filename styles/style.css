@@ -96,7 +96,6 @@
 .overlay {
    width: 1100px;
    position: absolute;
-   width: 1100px;
    height: 757px;
    opacity: 0.6;
    background-color: #000;
@@ -171,4 +170,116 @@
     color :#fff;
     font-weight: 500;
     font-size: 22px;
+}
+
+.lots {
+    padding: 180px 24px 0px 24px;
+}
+
+.lots__heading{
+    padding: 0px 173px 27px 40px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #000;
+
+}
+
+.lots__card-list {
+    list-style: none;
+    min-height: 596px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-link {
+    height: 100%;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:relative;
+    z-index: -1;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 596px;
+    opacity: 1;
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 596px;
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 596px;
+}
+
+.card__title {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: #fff;
+    padding: 40px 40px 0px 40px;
+    position: absolute;
+    z-index: 1;
+}
+
+.card__text {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 48px;
+    padding-top: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+.overlay_lots {
+   position: relative;
+   height: 100%;
+   opacity: 0.6;
+   background-color: #000;
+   z-index: 0;
+   inset: 0;
+}
+
+.lots__look-more-link {
+    padding: 30px 102px 2px 40px;
 }
