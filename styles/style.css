@@ -17,13 +17,12 @@
     display: block;
 }
 
-.header__logo-image{
+.header__logo-image {
     width: 148px;
     height: 105px;
     top: 92px;
     left: 478px;
     opacity: 1;
-
 }
 
 .header__menu {
@@ -84,13 +83,12 @@
     font-size: 18px;
     line-height: 24.3px;
     letter-spacing: 0%;
-    font-style: normal;
 }
 
 .cover {
     width: 1100px;
     min-height: 757px; 
-    background-image: url(../images/cover.jpg) ;
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -125,7 +123,7 @@
    z-index:1;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
     letter-spacing: 0px;
 }
 
@@ -187,7 +185,7 @@
     padding: 180px 24px 0px 24px;
 }
 
-.lots__heading{
+.lots__heading {
     padding: 0px 173px 27px 40px;
     font-family: Raleway;
     font-weight: 700;
@@ -302,7 +300,7 @@
     
 }
 
-.about__column  {
+.about__column {
     display: grid;
     grid-template-columns: 334px 1fr;
     gap: 25px;
