@@ -91,7 +91,6 @@
    font-weight: 700;
    font-size: 100px;
    line-height: 115%;
-   text-transform: uppercase;
 }
 
 .no-letter-spacing {
@@ -159,7 +158,7 @@
     flex-wrap: wrap;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
     width: 334px;
     min-height: 596px;
 }
